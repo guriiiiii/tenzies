@@ -1,0 +1,32 @@
+/* Adjustments for smaller devices */
+@media only screen and (max-width: 768px) {
+    main {
+      height: auto;
+      padding: 10px;
+    }
+  
+    .dice-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Additional adjustments for even smaller devices */
+  @media only screen and (max-width: 480px) {
+    .title {
+      font-size: 28px;
+    }
+  
+    .instructions {
+      font-size: 14px;
+    }
+  
+    .die-face {
+      height: 40px;
+      width: 40px;
+    }
+  
+    .die-num {
+      font-size: 1.5rem;
+    }
+  }
+  
